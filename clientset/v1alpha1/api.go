@@ -1,7 +1,7 @@
 package v1alpha1
 
 import (
-	"github.com/harbur/project-initializer/api/types/v1alpha1"
+	"github.com/spursy/k8s-project-initializer/api/types/v1alpha1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	"k8s.io/client-go/kubernetes/scheme"

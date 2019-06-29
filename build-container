@@ -4,5 +4,5 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 # Build & Push Docker Image
-docker build -t spiddy/project-initializer:0.0.1 ${DIR}
-docker push spiddy/project-initializer:0.0.1
+docker build -t spiddy/k8s-project-initializer:0.0.1 ${DIR}
+docker push spiddy/k8s-project-initializer:0.0.1

@@ -1,4 +1,4 @@
-package: github.com/harbur/project-initializer
+package: github.com/spursy/k8s-project-initializer
 import:
 - package: k8s.io/apimachinery
   subpackages:

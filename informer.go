@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/harbur/project-initializer/api/types/v1alpha1"
-	client_v1alpha1 "github.com/harbur/project-initializer/clientset/v1alpha1"
+	"github.com/spursy/k8s-project-initializer/api/types/v1alpha1"
+	client_v1alpha1 "github.com/spursy/k8s-project-initializer/clientset/v1alpha1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"

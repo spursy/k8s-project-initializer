@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/harbur/project-initializer/api/types/v1alpha1"
-	clientV1alpha1 "github.com/harbur/project-initializer/clientset/v1alpha1"
+	"github.com/spursy/k8s-project-initializer/api/types/v1alpha1"
+	clientV1alpha1 "github.com/spursy/k8s-project-initializer/clientset/v1alpha1"
 	corev1 "k8s.io/api/core/v1"
 	rbacv1 "k8s.io/api/rbac/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
